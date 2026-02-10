@@ -1,0 +1,19 @@
+# Core LLM + LangGraph
+langgraph>=0.0.40
+langchain>=0.1.20
+langchain-core>=0.1.50
+langchain-openai>=0.1.6
+
+# OpenAI client
+openai>=1.12.0
+
+# Data validation & schemas
+pydantic>=2.5.0
+
+# Async & API (later steps)
+fastapi>=0.110.0
+uvicorn>=0.29.0
+
+# Utilities
+python-dotenv>=1.0.1
+
