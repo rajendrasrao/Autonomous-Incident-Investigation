@@ -10,6 +10,7 @@ def intake_incident(raw_report:str):
     return incident_state
 
 
+
 @app.get("/")
 def health():
     return {"status": "ok"}
