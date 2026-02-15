@@ -22,4 +22,4 @@ ENV PYTHONPATH=/app
 EXPOSE 8000
 
 # Run uvicorn; replace "src.main:app" with your module where `app = FastAPI()` lives
-CMD ["uvicorn", "Incident_api:app", "--host", "0.0.0.0", "--port", "8000"]
+CMD ["uvicorn", "Incident_api:app", "--host", "0.0.0.0", "--port", "80"]
